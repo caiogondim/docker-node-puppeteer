@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build-image": "docker build -t docker-node-puppeteer .",
+    "run-image": "docker run --cap-add=SYS_ADMIN docker-node-puppeteer"
   },
   "keywords": [],
   "author": "",
