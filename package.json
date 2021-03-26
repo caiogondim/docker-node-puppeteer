@@ -1,0 +1,16 @@
+{
+  "name": "docker-node-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-paths": "^1.0.1",
+    "puppeteer-core": "^8.0.0"
+  }
+}
